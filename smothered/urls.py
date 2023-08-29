@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from smothered import views
+from smothered import views, settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     # admin
@@ -31,4 +32,4 @@ urlpatterns = [
     path('shows/', include('shows.urls'))
 
     # base site paths
-]
+] + static(settings.MEDIA_URL, document_root=settings)

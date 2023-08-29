@@ -1,0 +1,1 @@
+web: gunicorn smothered.wsgi -log-file-
