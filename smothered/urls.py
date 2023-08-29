@@ -26,9 +26,9 @@ urlpatterns = [
 
     # main apps
     path('', views.index, name='index'),
-    path('quiz/', include('quiz.urls'), name='quiz'),
-    path('shop/', include('shop.urls'), name='shop'),
-    path('shows/', include('shows.urls'), name='shows')
+    path('quiz/', include('quiz.urls')),
+    path('shop/', include('shop.urls')),
+    path('shows/', include('shows.urls'))
 
     # base site paths
 ]

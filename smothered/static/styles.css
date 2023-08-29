@@ -1,0 +1,27 @@
+.home-logo-div {
+    width: 12%;
+    margin: 0 auto;
+}
+
+.home-logo {
+    width: 90%;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0 auto;
+    filter: invert(100%);
+}
+
+.home-link {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.nav-item {
+    padding-left: 20%;
+}
+
+.nav-link {
+    color: white;
+    white-space: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

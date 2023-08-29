@@ -6,4 +6,4 @@ from django.http import HttpRequest, HttpResponseRedirect
 
 
 def index(request):
-    pass
+    return render(request, 'index.html')
