@@ -20,8 +20,6 @@ function insta_widget() {
                 if (element.media_type == 'VIDEO') {
                     grid_pic = document.createElement('video');
                     grid_pic.setAttribute('class', 'insta-grid-vid');
-                    grid_pic.setAttribute('autoplay', '');
-                    grid_pic.setAttribute('muted', '');
                     grid_pic.setAttribute('controls', '');
                 } else {
                     grid_pic = document.createElement('img');
