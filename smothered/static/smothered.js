@@ -1,3 +1,5 @@
+import process from 'node:process';
+
 document.addEventListener('DOMContentLoaded', function () {
 
     insta_widget();

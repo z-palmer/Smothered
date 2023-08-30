@@ -27,7 +27,6 @@ In JavaScript: var key = process.env.KEY;
 
 NEXT VERSION:
 
-- Instagram tiles
 - Music video and social links at bottom of page
 - New fonts
 - Song plays on landing page
