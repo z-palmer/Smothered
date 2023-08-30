@@ -11,10 +11,12 @@
         crossorigin="anonymous"></script>
     <link href="{% static 'styles.css' %}" rel="stylesheet">
     <script src="{% static 'smothered.js' %}"></script>
+    {% block head %}
+    {% endblock %}
 </head>
 
-<body>
-    <nav id="home-nav" class="navbar navbar-expand-lg" style="background-color: rgb(100, 118, 73)">
+<body class="landing-page-body">
+    <nav id="home-nav" class="navbar navbar-expand-lg" style="background-color: #164B2F">
         <div class="container-fluid">
             <div class="home-logo-div">
                 <a class="home-link" href="{% url 'index' %}"><img alt="smothered logo" class="home-logo"

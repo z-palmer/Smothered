@@ -25,3 +25,47 @@
     white-space: nowrap;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+.landing-page-body {
+    background-color: #C0F2C3;
+}
+
+#instagram-widget {
+    margin: 5% auto;
+    padding: 5%;
+    width: 60%;
+    background-color: #ED8CC9;
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "preview preview preview"
+        "preview preview preview"
+        "preview preview preview";
+    justify-content: center;
+    align-items: stretch;
+    column-gap: 10px;
+    row-gap: 25px;
+}
+
+.insta-grid-preview {
+    display: grid;
+    place-self: center;
+    grid-area: "preview";
+}
+
+.insta-grid-pic {
+    display: grid;
+    object-fit: cover;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.insta-grid-vid {
+    display: grid;
+    object-fit: cover;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
