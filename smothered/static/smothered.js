@@ -10,7 +10,7 @@ function insta_widget() {
 
     // fetches Instagram API data from Smothered account
     var key = process.env.IG_API_KEY
-    fetch(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,permalink,thumbnail_url,timestamp&access_token=IGQWRNYXRnSUpEVHZAsN1JpLWZA4dkI2RU95QkhnQkV6R3BfY2hPQUhuQVEwa3Bxb01VUldVaWo1cHduOHIwTDhEYTFpVmVvbnNqRVhQREQzYVpfanZAOUmpqV3BjamNfSkNXN1c2UDNNSE5uZAwZDZD`)
+    fetch(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,permalink,thumbnail_url,timestamp&access_token=${key}`)
         .then(response => response.json())
         .then(posts => {
             console.log(posts);
